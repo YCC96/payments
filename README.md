@@ -21,7 +21,7 @@ pip install requests
 python manage.py runserver
 ```
 
-Ejecuciónde pruebas
+Ejecución de pruebas
 ====================
 
 Request
