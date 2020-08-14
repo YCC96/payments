@@ -1,9 +1,9 @@
 BACKEND CHALLENGE
 =====================
 
-Autor: Yordy Cruz
-Tel: +52 5611820006
-Mail: yordycruz96@gmail.com 
+- Autor: Yordy Cruz
+- Tel: +52 5611820006
+- Mail: yordycruz96@gmail.com 
 
 
 Instalación
@@ -31,9 +31,11 @@ Url: http://127.0.0.1:8000/payments/paypal/
 Method: POST
 Headers: Content-Type: application/json
 Body: {"protection_eligibility":"Eligible","address_status":"confirmed","payer_id":"abd125f2-ed22-4e96-a938-5e8e7df937c4","payment_date":"20%3A12%3A59+Jan+13%2C+2009+PST","payment_status":"Completed","notify_version":"2.6","verify_sign":"AtkOfCXbDm2hu0ZELryHFjY-Vb7PAUvS6nMXgysbElEn9v-1XcmSoGtf","receiver_id":"S8XGHLYDW9T3S","txn_type":"express_checkout","item_name":"medium","mc_currency":"USD","payment_gross":"19.95","shipping":"0.0"}
+```
 
 Response
 
+```
 {'status': 'exito', 'code': '200', 'response': '{"id":"abd125f2-ed22-4e96-a938-5e8e7df937c4","data":{"banner_message":"
 <p><span>Welcome</span> to Mr X\'s website</p>
 ","LAST_PAYMENT_DATE":"20%3A12%3A59+Jan+13%2C+2009+PST","theme_name":"Mexico
