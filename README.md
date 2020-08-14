@@ -64,6 +64,7 @@ Referrer-Policy: same-origin
 
 Construido con
 ====================
+- Python 3.8.5
 - Django 3.1
 
 Autor
